@@ -7,7 +7,8 @@ import ResultCard from './components/ResultCard'
 import Features from './components/Features'
 import Footer from './components/Footer'
 
-const API_URL = 'http://localhost:8000'
+// Use environment variable if available, otherwise fallback to localhost for dev
+const API_URL = import.meta.env.VITE_BACKEND_URL || 'http://localhost:8000'
 
 function App() {
   const [result, setResult] = useState(null)
