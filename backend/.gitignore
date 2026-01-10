@@ -1,1 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+env/
+venv/
 .env
+
+# IDE
+.vscode/
+.idea/
+
+# Ensure ML artifacts are tracked (usually tracked by default, but just to be clear)
+# cardio_model.pkl
+# cardio_scaler.pkl
+# feature_names.pkl
